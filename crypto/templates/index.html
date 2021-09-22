@@ -2,7 +2,6 @@
 {% block content %}
 <div class="p-8">
   <form action="{% url 'search' %}" method="get" class="bg-white flex items-center rounded-full shadow-xl" >
-    {% csrf_token %}
     <input type="text" name="category"  class="rounded-l-full w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none" placeholder="Search coins">
     <button type="submit" value="Search" class="bg-blue-500 text-white rounded-full p-2 hover:bg-blue-400 focus:outline-none w-12 h-12 flex items-center justify-center">Search</button>
 </form>

@@ -24,7 +24,6 @@ def fear(request):
     return render(request,'fear.html',context=context)
 
 def price(request):
-    price_array = {'BTC','ETH','USDT','ADA','BNB','XRP','SOL','USDC','DOT','DODGE'}
     fear = requests.get('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,XRP,ETH,BCH,EOS,LTC,XLM,ADA,USDT,TRX,''&tsyms=USD,EUR')
     print(fear.status_code)
     price = fear.json()
