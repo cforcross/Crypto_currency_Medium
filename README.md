@@ -124,7 +124,7 @@ i'll begin by acknowledging the amazing guys at python,github and bootstrap,font
 * [Django](https://docs.djangoproject.com/en/3.2)
 * [tailwindcss](https://tailwindcss.com/)
 * [tailwindblogs](https://tailblocks.cc/)
-* [Cryptocompater](hhttps://www.cryptocompare.com/)
+* [Cryptocompare](https://www.cryptocompare.com/)
 * [Fear/GreenIndex](https://alternative.me/crypto/fear-and-greed-index/)
 * [REadmetemplate](https://github.com/othneildrew/Best-README-Template)
 
